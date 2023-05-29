@@ -7,29 +7,5 @@
         "excludedTypes": "Request"
       }
     }
-  },
-
-  "extensions": {
-    "http": {
-      "routePrefix": "",
-      "cors": {
-        "allowedOrigins": [
-          "http://localhost:3000"
-        ],
-        "allowedMethods": [
-          "GET",
-          "POST",
-          "PUT",
-          "PATCH",
-          "DELETE",
-          "OPTIONS"
-        ],
-        "allowedHeaders": [
-          "Content-Type",
-          "Authorization"
-        ],
-        "exposedHeaders": []
-      }
-    }
   }
-      }
+}
